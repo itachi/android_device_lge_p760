@@ -2,10 +2,10 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration for LG Optimus L9 P765
-$(call inherit-product, device/lge/p765/full_p765.mk)
+$(call inherit-product, device/lge/p765/device.mk)
 
-# This device has NFC
-#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+# Inherit from u2-vendor device
+$(call inherit-product, vendor/lge/u2/p765-vendor-blobs.mk)
 
 PRODUCT_NAME := cm_p765
 PRODUCT_BRAND := lg
