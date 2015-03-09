@@ -14,22 +14,22 @@
 
 #
 # This file is the build configuration for a full Android
-# build for p760 hardware. This cleanly combines a set of
+# build for p765 hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and p760, hence its name.
+# lines, full and p765, hence its name.
 #
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from u2-common device
-$(call inherit-product, device/lge/p760/device.mk)
+$(call inherit-product, device/lge/p765/device.mk)
 # Inherit from u2-vendor device
-$(call inherit-product, vendor/lge/u2/p760-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/u2/p765-vendor-blobs.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_p760
-PRODUCT_DEVICE := p760
+PRODUCT_NAME := full_p765
+PRODUCT_DEVICE := p765
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_MODEL := Optimus L9

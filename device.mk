@@ -19,23 +19,30 @@ $(call inherit-product, device/lge/u2-common/common.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
+# Packages
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # NFC Properties
-PRODUCT_PROPERTY_OVERRIDES += \
+#PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C \
     lge.nfc.fwpatchv13=yes \
     lge.nfc.indicator=yes \
     lge.nfc.defaultonoff=on
 
 # NFC stuffs
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # Permission files
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml
 
 # NFC packages
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     libnfc \
     libnfc_jni \
     Nfc \

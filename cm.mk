@@ -1,22 +1,22 @@
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit device configuration for LG Optimus L9 P760
-$(call inherit-product, device/lge/p760/full_p760.mk)
+# Inherit device configuration for LG Optimus L9 P765
+$(call inherit-product, device/lge/p765/full_p765.mk)
 
 # This device has NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_p760
+PRODUCT_NAME := cm_p765
 PRODUCT_BRAND := lg
-PRODUCT_DEVICE := p760
-PRODUCT_MODEL := LG-P760
+PRODUCT_DEVICE := p765
+PRODUCT_MODEL := LG-P765
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := Optimus L9
 PRODUCT_SFX := intl
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := p760
+PRODUCT_RELEASE_NAME := p765
 PRODUCT_VERSION_DEVICE_SPECIFIC := 
 -include vendor/cm/config/common_versions.mk
 

@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_p760.mk
+    $(LOCAL_DIR)/cm.mk
