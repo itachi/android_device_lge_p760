@@ -5,7 +5,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/lge/p765/device.mk)
 
 # Inherit from u2-vendor device
-$(call inherit-product, vendor/lge/u2/p765-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/u2/p760-vendor-blobs.mk)
 
 PRODUCT_NAME := cm_p765
 PRODUCT_BRAND := lg
