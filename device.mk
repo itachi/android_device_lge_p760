@@ -18,3 +18,10 @@
 $(call inherit-product, device/lge/u2-common/common.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+
+ # FM radio
+PRODUCT_PACKAGES += \
+     qcom.fmradio \
+     libqcomfm_jni \
+     FM2 \
+     FMRecord
