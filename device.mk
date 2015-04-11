@@ -25,3 +25,13 @@ PRODUCT_PACKAGES += \
      libqcomfm_jni \
      FM2 \
      FMRecord
+     
+# FM Radio
+PRODUCT_PACKAGES += \
+    Fmapplication \
+    fmapp \
+    libfm_stack \
+    fmreceiverif \
+    com.ti.fm.fmreceiverif.xml \
+    FmRxService \
+    libfmrx
