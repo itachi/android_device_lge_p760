@@ -20,7 +20,7 @@
 -include device/lge/u2-common/BoardCommonConfig.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := ExperiencedKernel_p760_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_p760_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/u2
 
 #Bluetooth
