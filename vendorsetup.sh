@@ -1,1 +1,1 @@
-add_lunch_combo cm_p765-userdebug
+add_lunch_combo ownrom_p760-userdebug

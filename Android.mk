@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),p765)
+ifeq ($(TARGET_DEVICE),p760)
 include $(all-subdir-makefiles)
 endif
 
