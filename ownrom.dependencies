@@ -1,6 +1,6 @@
 [
 {
-    "repository": "l9rebuild/lge-kernel-omap4",
+    "repository": "l9rebuild2/android_kernel_u2",
     "target_path": "kernel/lge/u2",
     "revision": "cm-12.1",
     "remote": "github"
@@ -8,7 +8,7 @@
   {
     "repository": "l9rebuild/android_device_lge_u2-common",
     "target_path": "device/lge/u2-common",
-    "revision": "cm-12.1",
+    "revision": "cm-12.1-t",
     "remote": "github"
   },
     {
@@ -22,5 +22,5 @@
     "target_path": "vendor/lge/u2",
     "revision": "cm-12.0",
     "remote": "github"
-  },
+  }
 ]
