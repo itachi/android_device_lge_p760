@@ -22,5 +22,5 @@
     "target_path": "vendor/lge/u2",
     "revision": "cm-12.0",
     "remote": "github"
-  },
+  }
 ]
