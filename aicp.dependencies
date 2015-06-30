@@ -1,6 +1,6 @@
 [
 {
-    "repository": "l9rebuild2/android_kernel_u2",
+    "repository": "itachi/android_kernel_lge_u2",
     "target_path": "kernel/lge/u2",
     "revision": "cm-12.1",
     "remote": "github"
