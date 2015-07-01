@@ -1,5 +1,5 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/ownrom/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit device configuration for LG Optimus L9 P760
 $(call inherit-product, device/lge/p760/device.mk)
@@ -7,7 +7,7 @@ $(call inherit-product, device/lge/p760/device.mk)
 # Inherit from u2-vendor device
 $(call inherit-product, vendor/lge/u2/p760-vendor-blobs.mk)
 
-PRODUCT_NAME := ownrom_p760
+PRODUCT_NAME := aicp_p760
 PRODUCT_BRAND := lg
 PRODUCT_DEVICE := p760
 PRODUCT_MODEL := LG-P760
